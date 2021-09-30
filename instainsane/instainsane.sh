@@ -101,7 +101,7 @@ fi
 printf "\e[1;92m[*] Starting Tor on port:\e[0m\e[1;77m 9050\e[0m\n"
 tor -f multitor/multitor1 > /dev/null &
 tor1=$!
-#printf "Process %s\n" $tor1
+printf "Process %s\n" $tor1
 sleep 6
 printf "\e[1;92m[*] Starting Tor on port:\e[0m\e[1;77m 9052\e[0m\n"
 tor -f multitor/multitor2 > /dev/null & 

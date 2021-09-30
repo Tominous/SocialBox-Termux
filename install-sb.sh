@@ -31,7 +31,7 @@ clear
 figlet Installing ...
 figlet instagram bf1
 #Instagram 1
-#git clone https://github.com/umeshshinde19/instainsane.git
+git clone https://github.com/umeshshinde19/instainsane.git
 cd instainsane
 chmod +x instainsane.sh
 chmod +x install.sh
@@ -42,7 +42,7 @@ clear
 figlet Installing ...
 figlet twitter bf
 #Twitter
-#git clone https://github.com/imprithwishghosh/-tweetshell-.git
+git clone https://github.com/imprithwishghosh/-tweetshell-.git
 cd tweetshell
 chmod +x tweetshell.sh
 chmod +x install.sh

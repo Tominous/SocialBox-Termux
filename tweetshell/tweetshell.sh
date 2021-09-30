@@ -6,10 +6,10 @@
 trap 'store;exit 1' 2
 
 checkroot() {
-#if [[ "$(id -u)" -ne 0 ]]; then
+if [[ "$(id -u)" -ne 0 ]]; then
     printf "\e[1;77mWelcome to my costumzie!\n\e[0m"
-#    exit 1
-#fi
+    exit 1
+fi
 }
 
 dependencies() {

@@ -29,10 +29,10 @@ echo "		▐█ ▀. ▪     ▐█ ▌▪██ ▐█ ▀█ ██•      ▐
 echo "		▄▀▀▀█▄ ▄█▀▄ ██ ▄▄▐█·▄█▀▀█ ██▪      ▐█▀▀█▄ ▄█▀▄  ·██· "
 echo "		▐█▄▪▐█▐█▌.▐▌▐███▌▐█▌▐█ ▪▐▌▐█▌▐▌    ██▄▪▐█▐█▌.▐▌▪▐█·█▌"
 echo -e "		 ▀▀▀▀  ▀█▄▀▪·▀▀▀ ▀▀▀ ▀  ▀ .▀▀▀     ·▀▀▀▀  ▀█▄▀▪•▀▀ ▀▀$nc $blue v2.beta$nc"
-#echo -e "	[+]              $red Coded By sam.sesh$nc         		   [+]"
-#echo -e "	[+] 		 $red samsesh.net $nc 		   [+]"
-#echo -e "	[+] 		 $red Greetz To All Pentesters$nc          		   [+]"
-#echo -e "	[+]$red Special Greetz To$nc :$green {thelinuxchoice , Ha3MrX, Tunisian Eagles, samsesh}$nc [+]"
+echo -e "	[+]              $red Coded By sam.sesh$nc         		   [+]"
+echo -e "	[+] 		 $red samsesh.net $nc 		   [+]"
+echo -e "	[+] 		 $red Greetz To All Pentesters$nc          		   [+]"
+echo -e "	[+]$red Special Greetz To$nc :$green {thelinuxchoice , Ha3MrX, Tunisian Eagles, samsesh}$nc [+]"
 echo ""
 echo -e "$yellow Select From Menu : $nc"
 echo ""
@@ -99,7 +99,7 @@ sv tor start
 ./instainsane.sh
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 sv tor stop
-#echo -e "		[+]$red Service Tor Stopped$nc [+]"
+echo -e "		[+]$red Service Tor Stopped$nc [+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check3
 echo -e "$nc"
